@@ -33,10 +33,27 @@ nav > button {
 }
 
 
+/* common paragraph style  */
+.para{
+    color: rgb(113, 113, 113);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/* common h1 style  */
+.commonH1{
+    text-align: center;
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+}
+
+
 /* banner section  */
 #bannerSection{
     background-image: url(./assets/Hero-bg.png);
-    height: 90vh;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -54,13 +71,6 @@ nav > button {
     font-weight: 800;
 }
 
-#bannerSection >p {
-    color: rgb(77, 77, 77);
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
-}
-
 #bannerSection > a > button {
     color: rgb(255, 255, 255);
     background-color: black;
@@ -73,14 +83,92 @@ nav > button {
 }
 
 
+/* why web dev section  */
+#whyWebDev{
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+margin: 70px 150px;
+padding:70px 80px;
+}
+
+#whyWebDev > h1 {
+    text-align: center;
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+}
+
+#whyWebDev > p {
+    padding: 24px 0;
+    text-align: center;
+}
+
+.whyWebDevMainDiv {
+    display: flex;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+    padding: 48px;
+    margin: 20px 0;
+}
+
+.whyWebDevMainDiv div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+padding: 0 150px 0 0;
+}
+
+.whyWebDevMainDiv h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.whyWebDevMainDiv button {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: white;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+#div2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+#div2 > div {
+
+padding: 0 130px 0 120px;
+}
+
+
+/* inspire Section  */
+#inspireSection{
+    text-align: center;
+    margin: 100px 150px;
+}
+
+#inspireSection > p {
+    text-align: center;
+    margin: 30px 0;
+}
 
 
 
-
-
-
-
-
+/* footer  */
+footer {
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+}
 
 
 
