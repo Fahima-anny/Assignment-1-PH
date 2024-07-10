@@ -10,10 +10,10 @@
 
 /* Navbar  */
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
 }
 
 nav>h2 {
@@ -22,8 +22,8 @@ nav>h2 {
     font-weight: 800;
 }
 
-nav > button {
-    padding: 17px 24px ;
+nav>button {
+    padding: 17px 24px;
     background-color: white;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.8;
@@ -34,7 +34,7 @@ nav > button {
 
 
 /* common paragraph style  */
-.para{
+.para {
     color: rgb(113, 113, 113);
     font-weight: 500;
     font-size: 15px;
@@ -42,19 +42,20 @@ nav > button {
 }
 
 /* common h1 style  */
-.commonH1{
+.commonH1 {
     text-align: center;
     color: rgb(13, 19, 33);
-font-size: 32px;
-font-weight: 800;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 
 /* banner section  */
-#bannerSection{
+#bannerSection {
     background-image: url(./assets/Hero-bg.png);
     height: 650px;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -65,13 +66,13 @@ font-weight: 800;
     padding: 0 220px;
 }
 
-#bannerSection >h1{
+#bannerSection>h1 {
     color: rgb(13, 19, 33);
     font-size: 40px;
     font-weight: 800;
 }
 
-#bannerSection > a > button {
+#bannerSection>a>button {
     color: rgb(255, 255, 255);
     background-color: black;
     border: none;
@@ -84,28 +85,28 @@ font-weight: 800;
 
 
 /* why web dev section  */
-#whyWebDev{
+#whyWebDev {
     border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
-margin: 70px 150px;
-padding:70px 80px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 70px 150px;
+    padding: 70px 80px;
 }
 
-#whyWebDev > h1 {
+#whyWebDev>h1 {
     text-align: center;
     color: rgb(13, 19, 33);
-font-size: 32px;
-font-weight: 800;
+    font-size: 32px;
+    font-weight: 800;
 }
 
-#whyWebDev > p {
+#whyWebDev>p {
     padding: 24px 0;
     text-align: center;
 }
 
 .whyWebDevMainDiv {
     display: flex;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     border-radius: 16px;
     padding: 48px;
     margin: 20px 0;
@@ -117,7 +118,7 @@ font-weight: 800;
     justify-content: center;
     align-items: start;
     gap: 30px;
-padding: 0 150px 0 0;
+    padding: 0 150px 0 0;
 }
 
 .whyWebDevMainDiv h3 {
@@ -137,59 +138,58 @@ padding: 0 150px 0 0;
     opacity: 0.7;
 }
 
-#div2{
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+#div2 {
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
-#div2 > div {
-
-padding: 0 130px 0 120px;
+#div2>div {
+    padding: 0 130px 0 120px;
 }
 
 
 /* inspire Section  */
-#inspireSection{
+#inspireSection {
     text-align: center;
     margin: 100px 150px;
 }
 
-#inspireSection > p {
+#inspireSection>p {
     text-align: center;
     margin: 30px 150px;
 }
 
-#inspireSection > div {
+#inspireSection>div {
     padding: 30px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     margin-top: 50px;
 }
 
-#inspireSection > div > iframe{
+#inspireSection>div>iframe {
     border-radius: 16px;
 }
 
 
 
 /* current section  */
-#currentSection{
+#currentSection {
     margin: 50px 150px 100px;
     text-align: center;
 }
 
-#currentSection > p{
+#currentSection>p {
     margin: 30px 100px;
     text-align: center;
 }
 
 #currentSectionCardDiv {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     gap: 24px;
 }
 
-.currentSectionCard{
+.currentSectionCard {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -200,19 +200,19 @@ padding: 0 130px 0 120px;
     border-radius: 16px;
 }
 
-#currentSectionCard1{
+#currentSectionCard1 {
     background-color: rgba(255, 76, 30, 0.05);
 }
 
-#currentSectionCard2{
+#currentSectionCard2 {
     background: rgba(0, 76, 232, 0.05);
 }
 
-#currentSectionCard3{
+#currentSectionCard3 {
     background: rgba(255, 223, 0, 0.05);
 }
 
-.currentSectionCard > a{
+.currentSectionCard>a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -220,13 +220,13 @@ padding: 0 130px 0 120px;
 
 
 /* support section  */
-#supportSection{
-    background-image: url(./assets/handshake.jpg) ;
+#supportSection {
+    background-image: url(./assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
     background-position: center;
-    margin:0px 150px 100px;
+    margin: 0px 150px 100px;
     border-radius: 16px;
     color: white;
     display: flex;
@@ -234,8 +234,8 @@ padding: 0 130px 0 120px;
     gap: 20px;
     justify-content: center;
     align-items: center;
-   background-color: rgba(0, 0, 0, 0.507);
-   background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.507);
+    background-blend-mode: overlay;
 }
 
 #supportSection p {
@@ -244,24 +244,24 @@ padding: 0 130px 0 120px;
 }
 
 #supportSection h1 {
-font-size: 32px;
-font-weight: 700;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 #supportSection form input[type=text] {
-padding:15px 20px;
-width: 550px;
-border-radius: 8px;
-font-size: 16px;
-font-weight: 400;
+    padding: 15px 20px;
+    width: 550px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 #supportSection form input[type=submit] {
-padding:15px 30px;
-border-radius: 8px;
-color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -273,15 +273,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
+    background: rgba(13, 19, 33, 0.03);
 }
 
-
-
-
-
-
-
-
-
-
+footer > div{
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
