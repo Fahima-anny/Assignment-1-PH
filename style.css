@@ -155,8 +155,33 @@ padding: 0 130px 0 120px;
 
 #inspireSection > p {
     text-align: center;
-    margin: 30px 0;
+    margin: 30px 150px;
 }
+
+#inspireSection > div {
+    padding: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+#inspireSection > div > iframe{
+    border-radius: 16px;
+}
+
+
+
+/* current section  */
+#currentSection{
+    margin: 50px 150px 200px;
+    text-align: center;
+}
+
+#currentSection > p{
+    margin: 30px 100px;
+    text-align: center;
+}
+
 
 
 
